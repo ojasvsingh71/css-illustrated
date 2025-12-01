@@ -46,7 +46,7 @@ export default function FlexSizingPage() {
                   className="border border-border rounded-lg p-4 hover:bg-card/50 transition cursor-pointer group"
                   onClick={() => copyToClipboard(item.class)}
                 >
-                  <code className="text-sm font-mono text-accent font-semibold">{item.class}</code>
+                  <code className="text-black text-sm font-mono text-accent font-semibold">{item.class}</code>
                   <p className="text-sm text-muted-foreground mt-2">{item.desc}</p>
                   <span className="text-xs text-muted-foreground mt-3 opacity-0 group-hover:opacity-100 transition">
                     Click to copy
@@ -61,7 +61,7 @@ export default function FlexSizingPage() {
               <div className="space-y-6">
                 {/* flex-1 demo */}
                 <div className="space-y-2">
-                  <p className="text-sm font-mono text-accent">flex-1 (grows equally)</p>
+                  <p className="text-black text-sm font-mono text-accent">flex-1 (grows equally)</p>
                   <div className="flex gap-4 h-32 bg-slate-800 rounded p-4">
                     <div className="flex-1 bg-blue-500 rounded p-4 flex items-center justify-center text-white font-semibold">
                       Item 1
@@ -77,7 +77,7 @@ export default function FlexSizingPage() {
 
                 {/* flex-auto demo */}
                 <div className="space-y-2">
-                  <p className="text-sm font-mono text-accent">flex-auto (grows based on content)</p>
+                  <p className="text-black text-sm font-mono text-accent">flex-auto (grows based on content)</p>
                   <div className="flex gap-4 h-32 bg-slate-800 rounded p-4">
                     <div className="flex-auto bg-green-500 rounded p-4 flex items-center justify-center text-white font-semibold">
                       Short
@@ -93,7 +93,7 @@ export default function FlexSizingPage() {
 
                 {/* flex-initial demo */}
                 <div className="space-y-2">
-                  <p className="text-sm font-mono text-accent">flex-initial (no growth, can shrink)</p>
+                  <p className="text-black text-sm font-mono text-accent">flex-initial (no growth, can shrink)</p>
                   <div className="flex gap-4 h-32 bg-slate-800 rounded p-4">
                     <div className="flex-initial bg-yellow-500 rounded p-4 flex items-center justify-center text-white font-semibold w-32">
                       Fixed Size
@@ -106,7 +106,7 @@ export default function FlexSizingPage() {
 
                 {/* flex-none demo */}
                 <div className="space-y-2">
-                  <p className="text-sm font-mono text-accent">flex-none (no growth, no shrink)</p>
+                  <p className="text-black text-sm font-mono text-accent">flex-none (no growth, no shrink)</p>
                   <div className="flex gap-4 h-32 bg-slate-800 rounded p-4">
                     <div className="flex-none bg-red-500 rounded p-4 flex items-center justify-center text-white font-semibold w-24">
                       Fixed
@@ -155,7 +155,7 @@ export default function FlexSizingPage() {
                   className="border border-border rounded-lg p-4 hover:bg-card/50 transition cursor-pointer group"
                   onClick={() => copyToClipboard(item.class)}
                 >
-                  <code className="text-sm font-mono text-accent font-semibold">{item.class}</code>
+                  <code className="text-black text-sm font-mono text-accent font-semibold">{item.class}</code>
                   <p className="text-sm text-muted-foreground mt-2">{item.desc}</p>
                 </div>
               ))}
@@ -165,7 +165,7 @@ export default function FlexSizingPage() {
               <h3 className="font-semibold text-foreground mb-4">Grow Demo</h3>
               <div className="space-y-6">
                 <div className="space-y-2">
-                  <p className="text-sm font-mono text-accent">flex-grow-0 + flex-grow comparison</p>
+                  <p className="text-black text-sm font-mono text-accent">flex-grow-0 + flex-grow comparison</p>
                   <div className="flex gap-4 h-24 bg-slate-800 rounded p-4">
                     <div className="flex-grow-0 w-24 bg-purple-600 rounded p-4 flex items-center justify-center text-white font-semibold text-sm">
                       Fixed 6rem
@@ -179,7 +179,7 @@ export default function FlexSizingPage() {
                   </div>
                 </div>
                 <div className="space-y-2">
-                  <p className="text-sm font-mono text-accent">All items with flex-grow (equal distribution)</p>
+                  <p className="text-black text-sm font-mono text-accent">All items with flex-grow (equal distribution)</p>
                   <div className="flex gap-4 h-24 bg-slate-800 rounded p-4">
                     <div className="flex-grow bg-indigo-500 rounded p-4 flex items-center justify-center text-white font-semibold text-sm">
                       Grows 1
@@ -221,7 +221,7 @@ export default function FlexSizingPage() {
                   className="border border-border rounded-lg p-4 hover:bg-card/50 transition cursor-pointer group"
                   onClick={() => copyToClipboard(item.class)}
                 >
-                  <code className="text-sm font-mono text-accent font-semibold">{item.class}</code>
+                  <code className="text-black text-sm font-mono text-accent font-semibold">{item.class}</code>
                   <p className="text-sm text-muted-foreground mt-2">{item.desc}</p>
                 </div>
               ))}
@@ -231,7 +231,7 @@ export default function FlexSizingPage() {
               <h3 className="font-semibold text-foreground mb-4">Shrink Demo (Container is constrained)</h3>
               <div className="space-y-6">
                 <div className="space-y-2">
-                  <p className="text-sm font-mono text-accent">Mixed shrink behavior</p>
+                  <p className="text-black text-sm font-mono text-accent">Mixed shrink behavior</p>
                   <div className="flex gap-4 w-96 overflow-x-auto bg-slate-800 rounded p-4">
                     <div className="flex-shrink-0 w-32 bg-orange-600 rounded p-4 flex items-center justify-center text-white font-semibold text-sm whitespace-nowrap">
                       No Shrink (fixed 8rem)
@@ -281,7 +281,7 @@ export default function FlexSizingPage() {
                   className="border border-border rounded-lg p-4 hover:bg-card/50 transition cursor-pointer group"
                   onClick={() => copyToClipboard(item.class)}
                 >
-                  <code className="text-sm font-mono text-accent font-semibold">{item.class}</code>
+                  <code className="text-black text-sm font-mono text-accent font-semibold">{item.class}</code>
                   <p className="text-sm text-muted-foreground mt-2">{item.desc}</p>
                 </div>
               ))}
@@ -291,7 +291,7 @@ export default function FlexSizingPage() {
               <h3 className="font-semibold text-foreground mb-4">Basis Demo</h3>
               <div className="space-y-6">
                 <div className="space-y-2">
-                  <p className="text-sm font-mono text-accent">basis sizing without growth</p>
+                  <p className="text-black text-sm font-mono text-accent">basis sizing without growth</p>
                   <div className="flex gap-4 h-32 bg-slate-800 rounded p-4">
                     <div className="basis-1/4 bg-red-600 rounded p-4 flex items-center justify-center text-white font-semibold text-sm">
                       basis-1/4
@@ -306,7 +306,7 @@ export default function FlexSizingPage() {
                 </div>
 
                 <div className="space-y-2">
-                  <p className="text-sm font-mono text-accent">basis as starting point with flex-grow</p>
+                  <p className="text-black text-sm font-mono text-accent">basis as starting point with flex-grow</p>
                   <div className="flex gap-4 h-32 bg-slate-800 rounded p-4">
                     <div className="basis-1/3 flex-grow bg-pink-600 rounded p-4 flex items-center justify-center text-white font-semibold text-sm">
                       1/3 + grow
