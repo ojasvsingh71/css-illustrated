@@ -167,10 +167,16 @@ Form submitted successfully
   };
 
   return (
+
     <div className="min-h-screen flex flex-col bg-background">
-      <Navbar />
+       <Navbar />
+
       <main className="flex-1 max-w-5xl px-8 py-12 space-y-12 text-left">
+
+
         {/* Quick Comparison Table */}
+                <b><h1 className="text-2xl font-semibold text-foreground mb-4" > Accessibility: Screen Reader</h1></b>
+
         <section className="mb-6 border border-border rounded-lg p-4 bg-card/30">
           <h2 className="text-2xl font-semibold text-foreground mb-4">Quick Comparison: sr-only vs not-sr-only</h2>
           <div className="overflow-x-auto">
@@ -277,7 +283,7 @@ Form submitted successfully
           </section>
         </div>
       </main>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
