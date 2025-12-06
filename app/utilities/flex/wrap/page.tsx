@@ -69,7 +69,7 @@ export default function FlexWrapPage() {
                 <button
                   key={u.className}
                   onClick={() => copyToClipboard(u.className)}
-                  className="text-left border border-border rounded-lg p-4 hover:bg-card/50 transition flex flex-col group"
+                  className="text-left border border-border rounded-lg p-4 hover:bg-card/50 transition flex flex-col group cursor-pointer"
                   aria-label={`Copy ${u.className}`}
                 >
                   <div className="flex items-center justify-between">
@@ -240,7 +240,7 @@ export default function FlexWrapPage() {
                       </div>
                       <button
                         onClick={() => copyToClipboard(playgroundMarkup)}
-                        className="text-xs px-3 py-1 rounded bg-muted/10 hover:bg-muted/20"
+                        className="text-xs px-3 py-1 rounded bg-muted/10 hover:bg-muted/20 cursor-pointer"
                       >
                         Copy markup
                       </button>
@@ -298,7 +298,7 @@ export default function FlexWrapPage() {
                   </code>
                   <button
                     onClick={() => copyToClipboard("flex-row flex-wrap")}
-                    className="text-xs px-2 py-1 rounded bg-muted/10"
+                    className="text-xs px-2 py-1 rounded bg-muted/10 cursor-pointer"
                   >
                     Copy
                   </button>
@@ -337,7 +337,7 @@ export default function FlexWrapPage() {
                   </code>
                   <button
                     onClick={() => copyToClipboard("flex-nowrap")}
-                    className="text-xs px-2 py-1 rounded bg-muted/10"
+                    className="text-xs px-2 py-1 rounded bg-muted/10 cursor-pointer"
                   >
                     Copy
                   </button>
@@ -375,7 +375,7 @@ export default function FlexWrapPage() {
                   </code>
                   <button
                     onClick={() => copyToClipboard("flex-row flex-wrap gap-3")}
-                    className="text-xs px-2 py-1 rounded bg-muted/10"
+                    className="text-xs px-2 py-1 rounded bg-muted/10 cursor-pointer"
                   >
                     Copy
                   </button>
@@ -405,7 +405,7 @@ export default function FlexWrapPage() {
                   </code>
                   <button
                     onClick={() => copyToClipboard("flex-row flex-wrap")}
-                    className="text-xs px-2 py-1 rounded bg-muted/10"
+                    className="text-xs px-2 py-1 rounded bg-muted/10 cursor-pointer"
                   >
                     Copy
                   </button>
@@ -478,7 +478,7 @@ export default function FlexWrapPage() {
                             `<div class="flex gap-2 flex-wrap">...</div>`
                           )
                         }
-                        className="text-xs px-2 py-1 rounded bg-muted/10"
+                        className="text-xs px-2 py-1 rounded bg-muted/10 cursor-pointer"
                       >
                         Copy
                       </button>
@@ -531,7 +531,7 @@ export default function FlexWrapPage() {
                             `<ol class="flex gap-2 flex-wrap">...</ol>`
                           )
                         }
-                        className="text-xs px-2 py-1 rounded bg-muted/10"
+                        className="text-xs px-2 py-1 rounded bg-muted/10 cursor-pointer"
                       >
                         Copy
                       </button>
@@ -590,7 +590,7 @@ export default function FlexWrapPage() {
                             `<div class="flex gap-2 flex-wrap">...</div>`
                           )
                         }
-                        className="text-xs px-2 py-1 rounded bg-muted/10"
+                        className="text-xs px-2 py-1 rounded bg-muted/10 cursor-pointer"
                       >
                         Copy
                       </button>
@@ -647,7 +647,7 @@ export default function FlexWrapPage() {
                             `<div class="flex flex-wrap gap-2">nav + search</div>`
                           )
                         }
-                        className="text-xs px-2 py-1 rounded bg-muted/10"
+                        className="text-xs px-2 py-1 rounded bg-muted/10 cursor-pointer cursor-pointer"
                       >
                         Copy
                       </button>
@@ -699,7 +699,7 @@ export default function FlexWrapPage() {
                             `<div class="flex flex-wrap gap-4">pricing cards</div>`
                           )
                         }
-                        className="text-xs px-2 py-1 rounded bg-muted/10"
+                        className="text-xs px-2 py-1 rounded bg-muted/10 cursor-pointer"
                       >
                         Copy
                       </button>
@@ -753,7 +753,7 @@ export default function FlexWrapPage() {
                             `<div class="flex flex-row flex-wrap gap-2">days</div>`
                           )
                         }
-                        className="text-xs px-2 py-1 rounded bg-muted/10"
+                        className="text-xs px-2 py-1 rounded bg-muted/10 cursor-pointer"
                       >
                         Copy
                       </button>
