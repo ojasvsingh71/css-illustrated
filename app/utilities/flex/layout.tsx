@@ -25,6 +25,18 @@ export default function FlexLayout({
               Direction
             </Link>
             <Link
+              href="/utilities/flex/basis"
+              className="px-3 py-1 text-sm border border-border rounded hover:bg-card transition"
+            >
+              Basis
+            </Link>
+            <Link
+              href="/utilities/flex/grow"
+              className="px-3 py-1 text-sm border border-border rounded hover:bg-card transition"
+            >
+              Grow
+            </Link>
+            <Link
               href="/utilities/flex/wrap"
               className="px-3 py-1 text-sm border border-border rounded hover:bg-card transition"
             >
